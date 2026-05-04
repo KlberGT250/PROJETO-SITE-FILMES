@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/stylesearchbar.css">
+    
+
+</head>
+<body>
+    <header id="header">
+        <nav id="navigation">
+            <div id="logo">
+                <img src="img/tv.png" alt="" >
+                <a href="./index.html">DonwMovie</a>
+            </div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./content/Lançamento.html">Lançamentos</a></li>
+                <li><a href="./content/populares.html">Populares</a></li>
+                <li><a href="#">Generos</a>
+                    <ul>
+                        <li><a href="./content/acao.html">Ação</a></li>
+                        <li><a href="./content/animacao.html">Animação</a></li>
+                        <li><a href="./content/biografia.html">Biografia</a></li>
+                        <li><a href="./content/comedia.html">Comédia</a></li>
+                        <li><a href="./content/documentario.html">Documentário</a></li>
+                        <li><a href="./content/drama.html">Drama</a></li>
+                        <li><a href="./content/fantasia.html">Fantasia</a></li>
+                        <li><a href="./content/faroeste.html">Faroeste</a></li>
+                        <li><a href="./content/ficcao.html">Ficção Científica</a></li>
+                        <li><a href="./content/romance.html">Romance</a></li>
+                        <li><a href="./content/terror.html">Terror</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <section class="busca">
+            <div class="wrapper">
+                <div class="search-input">
+                  <a href="" target="_blank" hidden></a>
+                  <input type="text" placeholder="Pesquisar..">
+                  <div class="autocom-box">
+                    <!-- here list are inserted from javascript -->
+                  </div>
+                  <div class="icon"><i class="fas fa-search"></i></div>
+                </div>
+              </div>
+            </section>
+        </nav>
+        <div class="info_movie">
+            <div class="name-movie">
+                <p>Five Nights at Freddy's - O pesadelo sem fim</p>
+            </div>
+            <div class="descripition-movie">
+                <div class="movie-rate">
+                    <p><img src="./img/imdb.png" alt=""> 88.0/100</p>
+                    <p><img src="./img/rottem.png" alt=""> 97%</p>
+                </div>
+                <p>No Freddy Fazbear's Pizza, robôs animados fazem a festa das crianças durante o dia. Mas, quando chega a noite, eles se transformam em assassinos psicopatas.</p>
+                <a href="magnet:?xt=urn:btih:e9c5ca5b8329b3a70dea7525085a0b3dad47fc61&dn=Five.Nights.At.Freddys.O.Pesadelo.Sem.Fim.2023.1080p.FULL.WEB-DL.DUAL.5.1&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.opentrackr.org:1337/announce"><img src="./img/Play.png" alt="">Baixar</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="box-titles">
+        <h2>Recomendações</h2>
+        <a href="./content/populares.html">Mais <img src="./img/Icon.png" alt=""> </a>
+    </div>
+
+    <section class="sec-glider">
+        <div class="glider-contain">
+            <div class="glider">
+              <a href="./content/bastardos inglórios.html">
+                <div class="imgglider">
+                    <img src="./img/bastardos inglorios poster.jpg" alt="">
+                </div>
+              </a>
+              <a href="./content/amizade colorida.html"><div class="imgglider"><img src="./img/amizade colorida poster.jpg" alt=""></div></a>
+              <a href="./content/blade runner 2049.html"><div class="imgglider"><img src="./img/blade runner 2049 poster.png" alt=""></div></a>
+              <a href="./content/django livre.html"><div class="imgglider"><img src="./img/django poster.PNG" alt=""></div></a>
+              <a href="./content/jurassic parck.html"><div class="imgglider"><img src="./img/jurassic park poster.png" alt=""></div></a>
+              <a href="./content/karatê kid.html"><div class="imgglider"><img src="./img/karate kid poster.jpg" alt=""></div></a>
+              <a href="./content/o último samurai.html"><div class="imgglider"><img src="./img/o ultimo samurai poster.jpg" alt=""></div></a>
+              <a href="./content/clube dos cinco.html"><div class="imgglider"><img src="./img/the breakfast club.png" alt=""></div></a>
+              
+              
+            </div>
+            
+            <button aria-label="Previous" class="glider-prev"><img src="./img/proximo.png" alt="" class="setaesquerda"></button>
+            <button aria-label="Next" class="glider-next"><img src="./img/proximo.png" alt=""></button>
+            <div role="tablist" class="dots"></div>
+            
+          </div>
+    </section>
+
+
+    <div class="box-titles">
+        <h2>Lançamentos</h2>
+        <a href="./content/Lançamento.html">Mais <img src="./img/Icon.png" alt=""> </a>
+    </div>
+
+    <section class="box-movies">
+        <div class="box-movie">
+            <a href="./content/Five nights at freddy's.html">
+                <img src="img/filme1.webp" alt="" src="">
+                <p class="data">USA, 2023</p>
+                <p class="name-movie">Five Nights At Freddy's - O Pesadelo Sem Fim</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            
+                </div>
+                <p class="genero">Terror</p>
+            </a>
+        </div>
+        <div class="box-movie" >
+            <a href="./content/brado.html">
+                <img src="img/filme2.jpg" alt="" >
+                <p class="data">USA, 2023</p>
+                <p class="name-movie">Brado</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero">Drama</p>
+            </a>
+            
+        </div>
+        <div class="box-movie">
+
+            <a href="./content/hypnotic.html">
+            <img src="img/filme3.jpg" alt="">
+            <p class="data">USA, 2018</p>
+            <p class="name-movie">Hypnotic - Ameaça Invisível</p>
+            <div class="rate-box-movie">
+                <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            </div>
+            <p class="genero">Ação, Suspense</p>
+            </a>
+        </div>
+        <div class="box-movie">
+            <a href="./content/mavka.html">
+            <img src="img/filme4.webp" alt="">
+            <p class="data">USA, 2018</p>
+            <p class="name-movie">Mavka: Aventura na Floresta</p>
+            <div class="rate-box-movie">
+                <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            </div>
+            <p class="genero">Animação, Ação, Fantasia, Aventura</p>
+            </a>
+        </div>
+        <div class="box-movie" >
+            <a href="./content/atiraram no pianista.html">
+                <img src="img/filme5.jpg" alt="">
+            <p class="data">USA, 2018</p>
+            <p class="name-movie">Atiraram no Pianista</p>
+            <div class="rate-box-movie">
+                <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            
+            
+            </div>
+            <p class="genero">Animação</p>
+            </a>
+        </div>
+        <div class="box-movie">
+            <a href="./content/o assassino.html">
+                <img src="img/filme6.webp" alt="" >
+                <p class="data">USA, 2018</p>
+                <p class="name-movie">O Assassino</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero">Drama, Suspense</p>
+            
+            </a>
+            </div>
+        <div class="box-movie" >
+            <a href="./content/os delinquentes.html">
+                <img src="img/filme7.webp" alt="">
+                <p class="data">USA, 2018</p>
+                <p class="name-movie">Os Delinquentes</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero">Drama, Suspense</p>
+            </a>
+        </div>
+        <div class="box-movie" >
+            <a href="./content/leonora.html">
+                <img src="img/filme8.jpg" alt="">
+                <p class="data">USA, 2018</p>
+                <p class="name-movie">Leonora, Adeus</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero">Drama</p>
+            </a>
+        </div>
+
+
+    </section>
+
+    <div class="box-titles">
+        <h2>Populares</h2>
+        <a href="./content/populares.html">Mais <img src="img/Icon.png" alt=""> </a>
+    </div>
+    <section class="box-movies">
+        <div class="box-movie">
+            <a href="./content/bastardos inglórios.html">
+                <img src="img/bastardos inglorios.jpg" alt="" src="">
+                <p class="data">USA, 2009</p>
+                <p class="name-movie">Bastardos Inglórios</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            
+                </div>
+                <p class="genero">Guerra, Ação</p>
+            </a>
+        </div>
+        <div class="box-movie" >
+            <a href="./content/clube dos cinco.html">
+                <img src="img/clubedoscinco.webp" alt="" >
+                <p class="data">USA, 1985</p>
+                <p class="name-movie">Clube dos Cinco</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero">Drama, Comédia, Comédia dramática</p>
+            </a>
+            
+        </div>
+        <div class="box-movie">
+
+            <a href="./content/karatê kid.html">
+            <img src="img/karate kid.webp" alt="">
+            <p class="data">USA, 2010</p>
+            <p class="name-movie">Karatê Kid</p>
+            <div class="rate-box-movie">
+                <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            </div>
+            <p class="genero">Artes Marciais, Ação, Drama, Família</p>
+            </a>
+        </div>
+        <div class="box-movie">
+            <a href="./content/blade runner 2049.html">
+            <img src="img/bladeruner.jpg" alt="">
+            <p class="data">USA, 2017</p>
+            <p class="name-movie">Blade runner 2049</p>
+            <div class="rate-box-movie">
+                <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            </div>
+            <p class="genero">Ficção Científica, Suspense</p>
+            </a>
+        </div>
+        <div class="box-movie" >
+            <a href="./content/jurassic parck.html">
+                <img src="./img/jurassic parck.webp" alt="">
+            <p class="data">USA, 1993</p>
+            <p class="name-movie">Jurassic Parck</p>
+            <div class="rate-box-movie">
+                <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+            
+            
+            </div>
+            <p class="genero"> Aventura, Ficção Científica</p>
+            </a>
+        </div>
+        <div class="box-movie">
+            <a href="./content/amizade colorida.html">
+                <img src="img/amizade colorida.jpg" alt="" >
+                <p class="data">USA, 2011</p>
+                <p class="name-movie">Amizade Colorida</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero"> Comédia, Romance</p>
+            
+            </a>
+            </div>
+        <div class="box-movie" >
+            <a href="./content/o último samurai.html">
+                <img src="img/o ultimo samurai.webp" alt="">
+                <p class="data">USA, 2003</p>
+                <p class="name-movie">O Último Samurai</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero">Histórico, Guerra</p>
+            </a>
+        </div>
+        <div class="box-movie" >
+            <a href="./content/django livre.html">
+                <img src="img/django.jpg" alt="">
+                <p class="data">USA, 2013</p>
+                <p class="name-movie">Django Livre</p>
+                <div class="rate-box-movie">
+                    <p class="rate-text"><img src="img/imdb-box.png" alt=""> 88.0/100</p>
+                    <p class="rate-text"><img src="img/rottem-box.png" alt=""> 97%</p>
+                </div>
+                <p class="genero"> Faroeste</p>
+            </a>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div id="footer_content"> 
+            <div id="footer-list">
+                <h1>DonwMovie</h1> <!--modificavel-->
+                
+
+                <div id="footer_social_media"> <!--logo redes socias-->
+                    <a href="#" class="footer-link" id="instagram"> <!--instagram-->
+                        <i class="fa-brands fa-instagram"></i> 
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook"> <!--facebook-->
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="twitter"> <!--twitter-->
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>site</h3> <!--topico "site"-->
+                </li>
+                <li>
+                    <a href="#" class="footer-link" >texto</a> <!--modificavel-->
+                </li>
+                <li>
+                    <a href="#" class="footer-link" >adventure</a> <!--modificavel-->
+                </li><li>
+                    <a href="#" class="footer-link" >Music</a> <!--modificavel-->
+                </li>
+            </ul>
+
+            <ul class="footer-list"> <!--topico "produtos"-->
+                <li>
+                    <h3>products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link" >app</a> <!--modificavel-->
+                </li>
+                <li>
+                    <a href="#" class="footer-link" >desktop</a> <!--modificavel-->
+                </li>
+                <li>
+                    <a href="#" class="footer-link" >cloud</a> <!--modificavel-->
+                </li>
+            </ul>
+
+            <div id="footer_subscribe"> <!--topico "subscribe"-->
+                <h3>suscribe</h3>
+
+                <p> <!--area para digitar email-->
+                    digite seu e-mail para ser notificado sobre 
+                    nossas futuras atualizações <!--modificavel-->
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email"> 
+                    <button>
+                        <i class="fa-regular fa-envelope"></i> 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright"> <!--copyright (como se a gente tivesse)-->
+            &#169
+            2023 todos os direitos reservados
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script src="./index.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/suggestions.js"></script>
+</html>

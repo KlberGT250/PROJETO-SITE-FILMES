@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+:root{ /*variaveis cores*/
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+footer {
+    width: 100%; /*largura*/
+    color: var(--color-neutral-40); /*cor*/
+}
+
+.footer-link { /*tirar ''text decoration'' (barra embaixo do nome das redes sociais)*/
+    text-decoration: none;
+}
+
+#footer_content { /*coluna content*/
+    background-color: var(--color-neutral-10); /*cor*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*collunas*/
+    padding: 3rem 3.5rem; /*espacamento*/
+}
+
+#footer_contacts h1 { 
+    margin-bottom: 0.75rem; /*colunas*/
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link{ /*icones*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem; /*altura*/
+    width: 2.5rem; /*largura*/
+    color: var(--color-neutral-40); /*cor*/
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i { 
+    font: 1.25rem; /*tamanho do icone*/
+}
+#footer_social_media .footer-link:hover { /*diminuir opacidade do logo ao passar mouse em cima*/
+    opacity: 0.8;
+}
+
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807); /*cor do background (fundo do icone*/
+}
+
+#facebook {
+    background-color: #4267d3; /*cor do background (fundo do icone*/
+}
+
+#twitter { 
+    background-color: #000000; /*cor do background (fundo do icone*/
+}
+
+.footer-list {
+    display: flex;
+    flex-direction:  column; 
+    gap: 0.75rem; /*espacamento*/
+    list-style: none;
+
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group  input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+
+}
+
+#input_group button { /*botao do envelpe*/
+    background-color: #7f37c9; /*cor do fundo fo icone*/
+    border: none; /*borda*/
+    color: var(--color-neutral-40); /*cor do icone*/
+    padding: 0px 1.25rem; /*espacamento*/
+    font-size: 1.125rem; /*tamanho da fonte*/
+    height: 100%; /*altura*/
+    border-radius: 0px 4px 4px 0px; /*borda*/
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+    
+}
+
