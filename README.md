@@ -1,2 +1,2 @@
 # PROJETO-SITE-FILMES
-Esse projeto foi minha primera experiência com mundo web
+Esse projeto foi minha primeira experiência com mundo web
